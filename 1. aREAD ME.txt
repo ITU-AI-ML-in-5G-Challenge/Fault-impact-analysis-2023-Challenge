@@ -1,0 +1,17 @@
+Order of Executing the .ipynb Files:
+
+1.Ensure you are working in the Anaconda environment on your PC. Extract the provided training and validation zip files to separate folders named "train" and "validation_clean."
+
+
+2.Begin by running the "1. DATA READING AND VISUALIZATIONS.ipynb" file first.
+
+
+	-This step is necessary to generate the "train.csv" and "test.csv" files, which are used in the subsequent "2. MODEL SOLUTION.ipynb" file.
+	-The notebook also provides visualizations, including correlation maps that demonstrate limited correlation between KPIs.
+	-Make sure to modify the path as required to match the folder where you've downloaded the datasets.
+
+
+3. Proceed to run the "2. MODEL SOLUTIONS.ipynb" file.
+
+
+4. For the final submission on Zindi, use the output from the last step, specifically the "ensemble.csv" file resulting from the ensemble process.
